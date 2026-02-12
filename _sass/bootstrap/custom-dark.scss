@@ -1,0 +1,203 @@
+/* ===============================
+   🌿 PALETA VERDE DO SITE
+   =============================== */
+
+$green-900: #97b877; // fundo mais escuro
+$green-800: #D8E983;
+$green-850: #7b9661;
+$green-700: #6ea331;
+$green-600: #347025;
+$green-500: #5f943b;
+$green-400: #62a155;
+$green-300: #4b6e2d;
+$green-200: #507c37; // destaques
+$green-100: #90c55f; // textos claros
+
+/* ===============================
+   🌙 DARK MODE VERDE GLOBAL
+   =============================== */
+
+[data-bs-theme="dark"] {
+
+  /* Fundo e texto padrão */
+  --bs-body-bg: #{$green-900};
+  --bs-body-color: #{$green-100};
+
+  /* Cores principais do Bootstrap */
+  --bs-primary: #{$green-400};
+  --bs-secondary: #{$green-600};
+  --bs-success: #{$green-300};
+
+  /* Links */
+  --bs-link-color: #{$green-300};
+  --bs-link-hover-color: #{$green-200};
+
+  /* Bordas */
+  --bs-border-color: #{$green-700};
+
+  /* Superfícies */
+  --bs-card-bg: #{$green-800};
+  --bs-tertiary-bg: #{$green-800};
+  --bs-secondary-bg: #{$green-800};
+
+  /* Botões */
+  --bs-btn-bg: #{$green-500};
+  --bs-btn-border-color: #{$green-500};
+  --bs-btn-hover-bg: #{$green-400};
+  --bs-btn-hover-border-color: #{$green-400};
+}
+/* ===============================
+   🌿 TEMA SERIF EM VERDE
+   =============================== */
+
+[data-bs-theme="dark"] {
+  /* Títulos */
+  h1, h2, h3, h4, h5, h6 {
+    color: $green-300 !important;
+  }
+
+  /* Links */
+  a {
+    color: $green-300;
+  }
+  a:hover {
+    color: $green-200;
+  }
+
+  /* Ícones */
+  svg, i {
+    color: $green-300 !important;
+  }
+
+  /* Cards e blocos de serviço (os da sua imagem) */
+  .feature, .service, .card {
+    background-color: $green-800 !important;
+    border-color: $green-700 !important;
+  }
+
+  /* Rodapé */
+  footer {
+    background-color: $green-900 !important;
+    color: $green-100 !important;
+  }
+
+  footer a {
+    color: $green-300 !important;
+  }
+
+  /* Barra vermelha acima do footer (call to action) */
+  .sub-footer, .footer, .footer-bottom {
+    background-color: $green-800 !important;
+  }
+  header,
+  .navbar,
+  .hero,
+  .section,
+  .feature,
+  .service,
+  .callout,
+  footer {
+    background-color: $green-800 !important;
+    color: $green-100 !important;
+  }
+
+  .hero {
+    background: linear-gradient(180deg, $green-800 0%, $green-900 100%);
+  }
+
+  .card {
+    background-color: $green-800;
+    border: 1px solid $green-700;
+  }
+
+  .btn-primary {
+    background-color: $green-500;
+    border-color: $green-500;
+  }
+
+  .btn-primary:hover {
+    background-color: $green-400;
+    border-color: $green-400;
+  }
+
+  hr {
+    border-color: $green-700;
+  }
+  /* Links do menu */
+  .navbar a,
+  .main-menu a,
+  header a {
+    color: $green-300 !important;
+    background-color: #D8E983;
+  }
+
+  .navbar a:hover,
+  .main-menu a:hover {
+    color: $green-200 !important;
+  }
+
+  /* Botão vermelho CONTACT */
+  .btn,
+  .btn-primary {
+    background-color: $green-500 !important;
+    border-color: $green-500 !important;
+    color: $green-100 !important;
+  }
+
+  .btn:hover,
+  .btn-primary:hover {
+    background-color: $green-400 !important;
+    border-color: $green-400 !important;
+  }
+
+  /* Ícones vermelhos */
+  svg, i {
+    color: $green-300 !important;
+  }
+   body {
+    background-color: $green-900 !important;
+  }
+
+  header,
+  .header,
+  .bg-light,
+  .section,
+  .section-white {
+    background-color: $green-850 !important;
+    color: $green-100 !important;
+  }
+
+  /* Área abaixo do hero */
+  .strip,
+  .container-strip {
+    background-color: $green-850 !important;
+  }
+}
+
+/* ===============================
+   🌿 SUBSTITUIR CORES DO TEMA SERIF
+   =============================== */
+
+$serif-accent: $green-400;
+$serif-accent-light: $green-300;
+$serif-accent-dark: $green-600;
+/* ===============================
+   🌑 FOOTER BEM ESCURO
+   =============================== */
+
+[data-bs-theme="dark"] .footer,
+[data-bs-theme="dark"] .footer-bottom,
+[data-bs-theme="dark"] .sub-footer {
+  background-color: $green-200 !important;
+  color: $green-100 !important;
+}
+
+[data-bs-theme="dark"] .footer a,
+[data-bs-theme="dark"] .footer-bottom a {
+  color: $green-100 !important;
+}
+
+[data-bs-theme="dark"] .footer a:hover {
+  color: $green-100 !important;
+}
+
