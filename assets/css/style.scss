@@ -2,8 +2,8 @@
 ---
 
 // Colors
-$primary: #e5261f;
-$primary-dark: #a01b16;
+$primary: #c5f388;
+$primary-dark: #c5f388;
 $secondary: #f88379;
 $black: #2f2f41;
 $white: #ffffff;
@@ -109,7 +109,7 @@ $sub-footer-text-color: $white;
 @import "pages/page-teams";
 @import "pages/page-service";
 
-@import "bootstrap/bootstrap";
+//@import "bootstrap/bootstrap";
 @import "bootstrap/custom-dark";
 
 body {
@@ -121,3 +121,4 @@ body {
     line-height: 1.3;
   }
 }
+
