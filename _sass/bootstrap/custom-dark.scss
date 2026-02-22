@@ -11,7 +11,7 @@ $green-500: #5f943b;
 $green-400: #62a155;
 $green-300: #4b6e2d;
 $green-200: #507c37; // destaques
-$green-100: #90c55f; // textos claros
+$green-100: #5f813e; // textos claros
 
 /* ===============================
    🌙 DARK MODE VERDE GLOBAL
@@ -78,7 +78,7 @@ $green-100: #90c55f; // textos claros
   /* Rodapé */
   footer {
     background-color: $green-900 !important;
-    color: $green-100 !important;
+    color: $green-900 !important;
   }
 
   footer a {
