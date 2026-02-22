@@ -3,17 +3,36 @@
     {% if site.data.contact.phone %}
         <div class="call-phone"><strong>Phone: </strong> {{ site.data.contact.phone }} </div>
     {% endif %}
+
     {% if site.data.contact.email %}
     <div class="call-email"><strong>Email: </strong>
-      <a href="mailto:{{ .site.data.contact.email }}">
+      <a href="mailto:{{ site.data.contact.email }}">
         {{ site.data.contact.email }}
       </a>
     </div>
     {% endif %}
-  </div>
-    {% if include.show_button %}
-      <div class="call-box-bottom">
-        <a href="{{ site.data.contact.contact_button_link }}" class="button">Contact</a>
-      </div>
+
+
+    {% if site.data.contact.github %}
+    <div class="call-github"><strong>GitHub: </strong>
+      <a href="{{ site.data.contact.github }}" target="_blank">
+        {{ site.data.contact.github }}
+      </a>
+    </div>
     {% endif %}
+
+    {% if site.data.contact.linkedin %}
+    <div class="call-linkedin"><strong>Linkedin: </strong>
+      <a href="{{site.data.contact.linkedin }}" target="_blank">
+        {{ site.data.contact.linkedin }}
+      </a>
+    </div>
+    {% endif %}
+  </div>
+
+   {% if include.show_button %}
+    <div class="call-box-bottom">
+      <a href="{{ site.data.contact.contact_button_link }}" class="button">Contact</a>
+    </div>
+  {% endif %}
 </div>

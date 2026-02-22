@@ -15,4 +15,4 @@ show_call_box: true
 </div>
 # Luma Guimarães
 
-I am a undergraduante computer science student and my research interest are non-linear optimization and information retrieval :)
+I am a undergraduante computer science student at UFMG and my research interest are non-linear optimization and information retrieval :)

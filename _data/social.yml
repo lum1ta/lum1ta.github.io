@@ -1,3 +1,7 @@
-github: "https://github.com/lum1ta"
-email: "lumamfg@ufmg.br"
-lattes:
+- name: Email
+  link: mailto:lumamfg@ufmg.br
+  image: /images/social/email.svg
+
+- name: GitHub
+  link: https://github.com/lum1ta
+  image: /images/social/github.svg
