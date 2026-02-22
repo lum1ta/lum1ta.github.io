@@ -4,10 +4,4 @@ layout: contact
 description: Contact
 ---
 
-You can contact me through:
-
-
-
-| Github:   | https://github.com/lum1ta|
-| Linkedin | https://www.linkedin.com/in/luma-guimaraes|
-| Email | lumamfg@ufmg.br |
+Feel free to contact me!!I will be glad to help you :)
