@@ -148,7 +148,17 @@ body {
 }
 
 .moldura{
+  position: relative;
   right: 400px;
   bottom: 100px;
   width: 420px;
+  z-index: 2px;
+}
+
+.home-profile{
+  position: absolute;
+  right: 450px;
+  bottom: 190px;
+  width: 300px;
+  z-index: 1px;
 }
