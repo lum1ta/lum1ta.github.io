@@ -122,3 +122,27 @@ body {
   }
 }
 
+/* permitir posicionamento relativo na intro */
+.intro {
+  position: relative;
+}
+
+/* container decorativo */
+.intro-decor img {
+  position: absolute;
+  pointer-events: none;
+}
+
+/* flor colada na lateral esquerda */
+.flor-left {
+  left: -60px;
+  bottom: 40px;
+  width: 240px;
+}
+
+/* girassol mais à esquerda e mais alto */
+.girassol-left {
+  left: 200px;
+  bottom: 120px;
+  width: 180px;
+}
