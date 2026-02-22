@@ -10,4 +10,4 @@ show_call_box: true
 
 # Luma Guimarães
 
-Welcome to my personal website :)
+I am a undergraduante computer science student and my research interest are non-linear optimization and information retrieval :)
