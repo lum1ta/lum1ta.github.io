@@ -9,6 +9,7 @@ show_call_box: true
 ---
 <div class="intro-decor">
   <img src="images/illustrations/flor-removebg-preview.png" class="flor-right">
+   <img src="images/illustrations/sun-removebg-preview.png" class="moldura">
   <img src="images/illustrations/girassol-removebg-preview.png" class="girassol-left">
 </div>
 # Luma Guimarães
