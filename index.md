@@ -11,7 +11,7 @@ show_call_box: true
   <img src="/images/illustrations/sun-removebg-preview.png" class="moldura">
 </div>
 
-#Luma Guimrães
+# Luma Guimarães
 
 I am a undergraduante computer science student at UFMG, and my research interest are non-linear optimization and information retrieval :)
 
