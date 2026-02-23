@@ -1,5 +1,4 @@
 ---
-title: Luma Guimarães
 layout: home
 description: Jekyll Serif contains content types for a typical business website. The theme is fully responsive, blazing fast and artfully illustrated.
 intro_image_absolute: true
@@ -11,6 +10,8 @@ show_call_box: true
   <img src="/images/illustrations/home-profile.png" class="home-profile">
   <img src="/images/illustrations/sun-removebg-preview.png" class="moldura">
 </div>
+
+#Luma Guimrães
 
 I am a undergraduante computer science student at UFMG, and my research interest are non-linear optimization and information retrieval :)
 
