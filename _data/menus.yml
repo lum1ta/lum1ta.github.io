@@ -1,11 +1,11 @@
 main:
-  - name: "Services"
+  - name: "Projects"
     url: "/services/"
     weight: 2
-  - name: "Team"
+  - name: "Hobbies"
     url: "/team/"
     weight: 3
-  - name: "About"
+  - name: "Education"
     url: "/about/"
     weight: 4
   - name: "Contact"
